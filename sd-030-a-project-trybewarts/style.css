@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inknut Antiqua ", serif;
+}
+
+main {
+  display: flex;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.textarea:focus {
+  outline: none !important;
+  border:1px solid red;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+.rate-checkbox-main {
+}
+
+.rate-checkbox {
+
+}
+
+.rate-checkbox input {
+
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 75px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.email-house {
+  padding-right: 10px;
+}
+
+.fam-content {
+  display: flex;
+  flex-wrap: nowrap;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.box {
+  display: inline-block;
+}
+
+.container-option {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.radio-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-second-options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.radio-second-options input {
+  margin-right: 5px;
+}
+
+.trybewart-avaliation {
+  display: flex;
+  gap: 10px;
+}
+
+.radio-numbers {
+  display: flex;
+  gap: 5px;
+}
+
+.title-trybe {
+  display: flex;
+  justify-content: center;
+}
+
+.nameLastName {
+  display: flex;
+  align-items: flex-start;
+  padding-right: 10px;
+}
+
+#input-lastname {
+  margin-left: 10px;
+}
+
+#input-email {
+  min-width: 49.5%;
+}
+
+#house {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(50, 167, 145);
+}
+
+.trybewarts-header-logo {
+  height: 50px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+.nameLastName {
+  display: flex;
+}
+
+button {
+  background-color: rebeccapurple !important;
+  color: white !important;
+}
+
+.email-house {
+  display: flex;
+}
+
+.trybewarts-login {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.submit-login {
+  height: 20px;
+  border-radius: 5px;
+}
