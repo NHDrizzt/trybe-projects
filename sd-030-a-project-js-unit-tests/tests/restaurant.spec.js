@@ -47,10 +47,7 @@ describe('10 - Implemente a função `createMenu`, bem como seus casos de teste'
     expect(typeof meuRestaurante.fetchMenu).toBe('function')
   })
   it('Verifique se "objetoRetornado.fetchMenu()" retorna um objeto cujas chaves são somente `food` e `drink` considerando que a função createMenu() foi chamada com o objeto: `{ food: {}, drink: {} }`', () => {
-    expect(meuRestaurante.fetchMenu()).toMatchObject({
-      food: {'coxinha': 3.90, 'sanduiche': 9.90},
-      drinks: {'agua': 3.90, 'cerveja': 6.90}
-    })
+    expect(Object.keys(meuRestaurante.fetchMenu())).toEqual(['food', 'drinks'])
   })
   it('Verifique se o menu passado pra função createMenu() é idêntico ao menu recuperado pela função \'objetoRetornado.fetchMenu()\'.', () => {
     expect(meuRestaurante.fetchMenu()).toMatchObject({
